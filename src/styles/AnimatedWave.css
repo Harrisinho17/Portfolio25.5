@@ -1,0 +1,55 @@
+
+
+#webgl {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #webgl2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 2;
+  }
+  
+  #bg-box {
+    width: 802px;
+    height: 602px;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .svg-box {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .svg-box #wave {
+    cursor: pointer;
+  }
+  
+  .animated-wave-container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: scale(0.9);
+  }
+  
+  @media (max-width: 1200px) {
+    .animated-wave-container {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      transform: scale(0.8);
+      margin-top: -40px;
+    }
+  }
