@@ -172,7 +172,7 @@ export default function Contact() {
           <div className="contact-info-item">
             <Icon name="Mail" className="contact-info-icon" />
             <a href="mailto:abelchior.harris@gmail.com" className="contact-email" target="_blank" rel="noopener noreferrer">
-              abelchior.harris@gmail.com
+
             </a>
           </div>
         </div>

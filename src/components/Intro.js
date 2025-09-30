@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "../styles/Intro.css";
 import AnimatedRobot from "./AnimatedRobot";
-import AnimatedWave from "./AnimatedWave";
 import { FiMail } from "react-icons/fi"; 
 import { gsap } from "gsap";
 
@@ -177,7 +176,7 @@ const Intro = ({ onTypingDone }) => {
       </div>
       
       <div className="intro-animation" ref={animationRef}>
-        <AnimatedWave />
+        <AnimatedRobot />
       </div>
     </div>
   );
